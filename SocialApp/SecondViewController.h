@@ -11,4 +11,7 @@
 
 @interface SecondViewController : UIViewController
 
+-(IBAction)goBack:(id)sender;
+-(IBAction)profileViewController:(id)sender;
+
 @end

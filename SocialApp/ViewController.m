@@ -12,8 +12,12 @@
 
 @end
 
-@implementation ViewController{
-//SecondViewController *sec = [[SecondViewController alloc]init];
+@implementation ViewController
+-(IBAction)showSecond:(id)sender
+{
+   SecondViewController *second = [[SecondViewController alloc]init];
+    second.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
+    [self presentModalViewController:second animated:YES];
 
  }
 - (void)viewDidLoad

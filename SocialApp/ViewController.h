@@ -12,5 +12,5 @@
 {
     
 }
-
+-(IBAction)showSecond:(id)sender;
 @end

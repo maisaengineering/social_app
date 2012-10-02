@@ -7,12 +7,26 @@
 //
 
 #import "SecondViewController.h"
+#import "ProfileViewController.h"
 
 @interface SecondViewController ()
 
 @end
 
 @implementation SecondViewController
+-(IBAction)goBack:(id)sender{
+    [self dismissModalViewControllerAnimated:YES];
+}
+-(IBAction)profileViewController:(id)sender{
+    ProfileViewController *profile = [[ProfileViewController alloc]init];
+    profile.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
+    [self presentModalViewController:profile animated:YES];
+    UINavigationController *navController = [[UINavigationController alloc]initWithRootViewController:profile]; 
+    
+    [self presentModalViewController:navController animated:YES];
+
+    
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
