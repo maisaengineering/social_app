@@ -8,6 +8,7 @@
 
 #import "SecondViewController.h"
 #import "ProfileViewController.h"
+#import "InformationViewController.h"
 
 @interface SecondViewController ()
 
@@ -23,11 +24,17 @@
     [self presentModalViewController:profile animated:YES];
     UINavigationController *navController = [[UINavigationController alloc]initWithRootViewController:profile]; 
     
-    [self presentModalViewController:navController animated:YES];
-
+    [self presentModalViewController:navController animated:YES];    
+}
+-(IBAction)AppInfomation:(id)sender{
+    InformationViewController *AppInfo = [[InformationViewController alloc]init];
+    
+    AppInfo.modalTransitionStyle = UIModalTransitionStylePartialCurl;
+    
+    //AppInfo.modalPresentationStyle = UIModalPresentationFormSheetr;
+    [self presentModalViewController:AppInfo animated:YES];
     
 }
-
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];

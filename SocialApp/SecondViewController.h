@@ -13,5 +13,6 @@
 
 -(IBAction)goBack:(id)sender;
 -(IBAction)profileViewController:(id)sender;
+-(IBAction)AppInfomation:(id)sender;
 
 @end
