@@ -46,8 +46,23 @@
 		71290FCB161EF95A0058A553 /* statusupdate.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71290FB0161EF95A0058A553 /* statusupdate.jpg */; };
 		71290FCC161EF95A0058A553 /* user.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71290FB1161EF95A0058A553 /* user.jpg */; };
 		71290FCD161EF95A0058A553 /* videocall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71290FB2161EF95A0058A553 /* videocall.jpg */; };
+		7133CDAA1626D61D004498F6 /* facebook.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7133CDA91626D61D004498F6 /* facebook.jpg */; };
+		7133CDAC1626D625004498F6 /* twitter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7133CDAB1626D625004498F6 /* twitter.jpg */; };
+		7133CDAE1626D64B004498F6 /* skype.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7133CDAD1626D64B004498F6 /* skype.jpg */; };
+		71CEB8FC16281716003A2202 /* GmailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CEB8FA16281716003A2202 /* GmailViewController.m */; };
+		71CEB8FD16281716003A2202 /* GmailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71CEB8FB16281716003A2202 /* GmailViewController.xib */; };
+		71CEB8FF162819FF003A2202 /* gmail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71CEB8FE162819FF003A2202 /* gmail.jpg */; };
+		71CEB90316281BD9003A2202 /* LinkedInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CEB90116281BD9003A2202 /* LinkedInViewController.m */; };
+		71CEB90416281BD9003A2202 /* LinkedInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71CEB90216281BD9003A2202 /* LinkedInViewController.xib */; };
+		71CEB90916282D34003A2202 /* linkedIn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71CEB90816282D34003A2202 /* linkedIn.jpg */; };
+		71CEB90D16283538003A2202 /* SkypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CEB90B16283537003A2202 /* SkypeViewController.m */; };
+		71CEB90E16283538003A2202 /* SkypeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71CEB90C16283537003A2202 /* SkypeViewController.xib */; };
 		71CFD41B161B0CBA00F05CD5 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CFD419161B0CBA00F05CD5 /* ProfileViewController.m */; };
 		71CFD41C161B0CBA00F05CD5 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71CFD41A161B0CBA00F05CD5 /* ProfileViewController.xib */; };
+		71E0EC861627CED3000148A7 /* TwitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E0EC841627CED3000148A7 /* TwitterViewController.m */; };
+		71E0EC871627CED3000148A7 /* TwitterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71E0EC851627CED3000148A7 /* TwitterViewController.xib */; };
+		71E0EC961627E3A4000148A7 /* fbViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E0EC941627E3A4000148A7 /* fbViewController.m */; };
+		71E0EC971627E3A4000148A7 /* fbViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71E0EC951627E3A4000148A7 /* fbViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -97,10 +112,30 @@
 		71290FB0161EF95A0058A553 /* statusupdate.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = statusupdate.jpg; sourceTree = "<group>"; };
 		71290FB1161EF95A0058A553 /* user.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = user.jpg; sourceTree = "<group>"; };
 		71290FB2161EF95A0058A553 /* videocall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = videocall.jpg; sourceTree = "<group>"; };
+		7133CDA91626D61D004498F6 /* facebook.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = facebook.jpg; sourceTree = "<group>"; };
+		7133CDAB1626D625004498F6 /* twitter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = twitter.jpg; sourceTree = "<group>"; };
+		7133CDAD1626D64B004498F6 /* skype.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skype.jpg; sourceTree = "<group>"; };
 		714D6478161D67B5007C60D7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		71CEB8F916281716003A2202 /* GmailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GmailViewController.h; sourceTree = "<group>"; };
+		71CEB8FA16281716003A2202 /* GmailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GmailViewController.m; sourceTree = "<group>"; };
+		71CEB8FB16281716003A2202 /* GmailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GmailViewController.xib; sourceTree = "<group>"; };
+		71CEB8FE162819FF003A2202 /* gmail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gmail.jpg; sourceTree = "<group>"; };
+		71CEB90016281BD9003A2202 /* LinkedInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedInViewController.h; sourceTree = "<group>"; };
+		71CEB90116281BD9003A2202 /* LinkedInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkedInViewController.m; sourceTree = "<group>"; };
+		71CEB90216281BD9003A2202 /* LinkedInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LinkedInViewController.xib; sourceTree = "<group>"; };
+		71CEB90816282D34003A2202 /* linkedIn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = linkedIn.jpg; sourceTree = "<group>"; };
+		71CEB90A16283537003A2202 /* SkypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkypeViewController.h; sourceTree = "<group>"; };
+		71CEB90B16283537003A2202 /* SkypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkypeViewController.m; sourceTree = "<group>"; };
+		71CEB90C16283537003A2202 /* SkypeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SkypeViewController.xib; sourceTree = "<group>"; };
 		71CFD418161B0CBA00F05CD5 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
 		71CFD419161B0CBA00F05CD5 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		71CFD41A161B0CBA00F05CD5 /* ProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		71E0EC831627CED3000148A7 /* TwitterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterViewController.h; sourceTree = "<group>"; };
+		71E0EC841627CED3000148A7 /* TwitterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterViewController.m; sourceTree = "<group>"; };
+		71E0EC851627CED3000148A7 /* TwitterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TwitterViewController.xib; sourceTree = "<group>"; };
+		71E0EC931627E3A4000148A7 /* fbViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fbViewController.h; sourceTree = "<group>"; };
+		71E0EC941627E3A4000148A7 /* fbViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fbViewController.m; sourceTree = "<group>"; };
+		71E0EC951627E3A4000148A7 /* fbViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = fbViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +198,21 @@
 				7125932A161BFCFF0041B5FA /* InformationViewController.h */,
 				7125932B161BFCFF0041B5FA /* InformationViewController.m */,
 				7125932C161BFCFF0041B5FA /* InformationViewController.xib */,
+				71E0EC831627CED3000148A7 /* TwitterViewController.h */,
+				71E0EC841627CED3000148A7 /* TwitterViewController.m */,
+				71E0EC851627CED3000148A7 /* TwitterViewController.xib */,
+				71E0EC931627E3A4000148A7 /* fbViewController.h */,
+				71E0EC941627E3A4000148A7 /* fbViewController.m */,
+				71E0EC951627E3A4000148A7 /* fbViewController.xib */,
+				71CEB8F916281716003A2202 /* GmailViewController.h */,
+				71CEB8FA16281716003A2202 /* GmailViewController.m */,
+				71CEB8FB16281716003A2202 /* GmailViewController.xib */,
+				71CEB90016281BD9003A2202 /* LinkedInViewController.h */,
+				71CEB90116281BD9003A2202 /* LinkedInViewController.m */,
+				71CEB90216281BD9003A2202 /* LinkedInViewController.xib */,
+				71CEB90A16283537003A2202 /* SkypeViewController.h */,
+				71CEB90B16283537003A2202 /* SkypeViewController.m */,
+				71CEB90C16283537003A2202 /* SkypeViewController.xib */,
 				7120C3271619DB9600B3FFBE /* Supporting Files */,
 			);
 			path = SocialApp;
@@ -182,6 +232,11 @@
 		71290F97161EF95A0058A553 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				7133CDAD1626D64B004498F6 /* skype.jpg */,
+				7133CDA91626D61D004498F6 /* facebook.jpg */,
+				7133CDAB1626D625004498F6 /* twitter.jpg */,
+				71CEB8FE162819FF003A2202 /* gmail.jpg */,
+				71CEB90816282D34003A2202 /* linkedIn.jpg */,
 				71290F98161EF95A0058A553 /* 20-gear2.png */,
 				71290F99161EF95A0058A553 /* add.jpg */,
 				71290F9A161EF95A0058A553 /* back.jpg */,
@@ -296,6 +351,16 @@
 				71290FCB161EF95A0058A553 /* statusupdate.jpg in Resources */,
 				71290FCC161EF95A0058A553 /* user.jpg in Resources */,
 				71290FCD161EF95A0058A553 /* videocall.jpg in Resources */,
+				7133CDAA1626D61D004498F6 /* facebook.jpg in Resources */,
+				7133CDAC1626D625004498F6 /* twitter.jpg in Resources */,
+				7133CDAE1626D64B004498F6 /* skype.jpg in Resources */,
+				71E0EC871627CED3000148A7 /* TwitterViewController.xib in Resources */,
+				71E0EC971627E3A4000148A7 /* fbViewController.xib in Resources */,
+				71CEB8FD16281716003A2202 /* GmailViewController.xib in Resources */,
+				71CEB8FF162819FF003A2202 /* gmail.jpg in Resources */,
+				71CEB90416281BD9003A2202 /* LinkedInViewController.xib in Resources */,
+				71CEB90916282D34003A2202 /* linkedIn.jpg in Resources */,
+				71CEB90E16283538003A2202 /* SkypeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +377,11 @@
 				7120C3451619DCC100B3FFBE /* SecondViewController.m in Sources */,
 				71CFD41B161B0CBA00F05CD5 /* ProfileViewController.m in Sources */,
 				7125932D161BFCFF0041B5FA /* InformationViewController.m in Sources */,
+				71E0EC861627CED3000148A7 /* TwitterViewController.m in Sources */,
+				71E0EC961627E3A4000148A7 /* fbViewController.m in Sources */,
+				71CEB8FC16281716003A2202 /* GmailViewController.m in Sources */,
+				71CEB90316281BD9003A2202 /* LinkedInViewController.m in Sources */,
+				71CEB90D16283538003A2202 /* SkypeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,21 +1,19 @@
 //
-//  ProfileViewController.m
+//  SkypeViewController.m
 //  SocialApp
 //
-//  Created by abhilash kasarla on 02/10/12.
+//  Created by abhilash kasarla on 12/10/12.
 //  Copyright (c) 2012 punnami hatcheries. All rights reserved.
 //
 
-#import "ProfileViewController.h"
+#import "SkypeViewController.h"
 
-@interface ProfileViewController ()
+@interface SkypeViewController ()
 
 @end
 
-@implementation ProfileViewController
--(IBAction)goBack:(id)sender{
-    [self dismissModalViewControllerAnimated:YES];
-}
+@implementation SkypeViewController
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -24,12 +22,19 @@
     }
     return self;
 }
-
+-(IBAction)goBack:(id)sender{
+    [self dismissModalViewControllerAnimated:NO];
+}
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
-
+    NSURL *url = [NSURL URLWithString:@"https://login.skype.com/account/login-form?return_url=https%3A%2F%2Fsecure.skype.com%2Faccount%2Flogin"];
+    webView.scalesPageToFit = YES;
+	NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    
+	[webView loadRequest:request];
+   
     // Do any additional setup after loading the view from its nib.
 }
 

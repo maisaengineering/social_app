@@ -9,6 +9,11 @@
 #import "SecondViewController.h"
 #import "ProfileViewController.h"
 #import "InformationViewController.h"
+#import "TwitterViewController.h"
+#import "fbViewController.h"
+#import "GmailViewController.h"
+#import "LinkedInViewController.h"
+#import "SkypeViewController.h"
 
 @interface SecondViewController ()
 
@@ -35,6 +40,28 @@
     [self presentModalViewController:AppInfo animated:YES];
     
 }
+-(IBAction)twitter:(id)sender{
+    TwitterViewController *twitter = [[TwitterViewController alloc]init];
+    [self presentModalViewController:twitter animated:NO];
+    [self.navigationController pushViewController:twitter animated:YES];
+}
+-(IBAction)facebook:(id)sender{
+    fbViewController *fb = [[fbViewController alloc]init];
+    [self presentModalViewController:fb animated:NO];
+}
+-(IBAction)skype:(id)sender{
+    SkypeViewController *skype = [[SkypeViewController alloc]init];
+    [self presentModalViewController:skype animated:NO];
+}
+-(IBAction)gmail:(id)sender{
+    GmailViewController *gmail = [[GmailViewController alloc]init];
+    [self presentModalViewController:gmail animated:NO];
+}
+-(IBAction)linkedIn:(id)sender{
+    LinkedInViewController *linkedIn = [[LinkedInViewController alloc]init];
+    [self presentModalViewController:linkedIn animated:NO];
+}
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];

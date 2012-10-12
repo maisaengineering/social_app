@@ -14,5 +14,10 @@
 -(IBAction)goBack:(id)sender;
 -(IBAction)profileViewController:(id)sender;
 -(IBAction)AppInfomation:(id)sender;
+-(IBAction)twitter:(id)sender;
+-(IBAction)facebook:(id)sender;
+-(IBAction)skype:(id)sender;
+-(IBAction)gmail:(id)sender;
+-(IBAction)linkedIn:(id)sender;
 
 @end

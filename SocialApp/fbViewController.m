@@ -1,21 +1,19 @@
 //
-//  ProfileViewController.m
+//  fbViewController.m
 //  SocialApp
 //
-//  Created by abhilash kasarla on 02/10/12.
+//  Created by abhilash kasarla on 12/10/12.
 //  Copyright (c) 2012 punnami hatcheries. All rights reserved.
 //
 
-#import "ProfileViewController.h"
+#import "fbViewController.h"
 
-@interface ProfileViewController ()
+@interface fbViewController ()
 
 @end
 
-@implementation ProfileViewController
--(IBAction)goBack:(id)sender{
-    [self dismissModalViewControllerAnimated:YES];
-}
+@implementation fbViewController
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -24,11 +22,15 @@
     }
     return self;
 }
-
+-(IBAction)goBack:(id)sender{
+    [self dismissModalViewControllerAnimated:NO];
+}
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+    NSURL *url = [NSURL URLWithString:@"https://www.facebook.com/login.php"];
+	NSURLRequest *request = [NSURLRequest requestWithURL:url];
+	[webView loadRequest:request];
 
     // Do any additional setup after loading the view from its nib.
 }
